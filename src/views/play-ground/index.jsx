@@ -33,7 +33,7 @@ const Playground = ({ messages, inputValue, isLoading, onInputValueChange, onSub
           <div className='flex'>
             <div className='grid items-center'>
               <Image
-                alt='avatar'
+                alt='Profile picture of Mohammed Murshid KK'
                 src='/images/avatar.png'
                 loading='lazy'
                 objectFit='fill'

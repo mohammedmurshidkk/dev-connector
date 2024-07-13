@@ -11,7 +11,7 @@ const Header = () => {
       <h6 className='font-bold text-xl'>Mohammed Murshid KK</h6>
       <div>
         <button
-          className='p-1 rounded-lg border-2 border-neutral-900 dark:border-white dark:bg-gray-700'
+          className='p-2 rounded-lg border-2 border-neutral-900 dark:border-white dark:bg-gray-700'
           onClick={handleThemeChange}
         >
           <MdiThemeLightDark className='xxs:w-6 xxs:h-5' />

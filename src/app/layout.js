@@ -6,8 +6,9 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Mohammed Murshid KK',
-  description: 'AI Driven portfolio',
+  title: 'Mohammed Murshid KK - AI-Driven Portfolio',
+  description: `Welcome to the AI-driven portfolio of Mohammed Murshid KK, featuring expertise in Next.js, React, and advanced AI technologies like OpenAI and Gemini AI. Explore our projects showcased with dynamic themes using Tailwind CSS and Next.js' Next-Themes, tailored for both light and dark modes, powered by DataStax Astra for robust data management.'
+    This description now includes mentions of Tailwind CSS, Next-Themes for dynamic theming, DataStax Astra for data management, and emphasizes the use of light and dark themes to enhance user experience`,
   icons: {
     icon: [
       {

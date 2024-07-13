@@ -3,6 +3,21 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "keywords": [
+    "AI",
+    "Portfolio",
+    "Nextjs",
+    "React",
+    "App Route",
+    "Tailwind CSS",
+    "AI Driven portfolio",
+    "mohammedmurshidkk",
+    "Mohammed Murshid KK",
+    "OPENAI",
+    "GEMINI",
+    "Gemini",
+    "DataStax Astra"
+  ],
   "author": {
     "name": "Mohammed Murshid KK",
     "email": "muhammedmurshid43@gmail.com"

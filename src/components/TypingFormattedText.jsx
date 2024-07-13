@@ -4,7 +4,7 @@ import { parseText } from '@/utils/parseText';
 
 const renderer = new marked.Renderer();
 renderer.link = link => {
-  return `<a href="${link?.href}" target="_blank" rel="noopener noreferrer">${link?.raw}</a>`;
+  return `<a href="${link?.href}" target="_blank" rel="noopener noreferrer">${link?.text}</a>`;
 };
 
 const RenderLine = ({ line }) => {
