@@ -1,5 +1,17 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "cSpell.words": ["ASTRA", "datastax", "langchain", "Murshid", "Parens"]
+  "cSpell.words": [
+    "Antd",
+    "ASTRA",
+    "Chakra",
+    "datastax",
+    "GSAP",
+    "Kiebot",
+    "langchain",
+    "Malappuram",
+    "Murshid",
+    "Parens",
+    "Upcode"
+  ]
 }
