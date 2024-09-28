@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100%;
+  color: var(--foreground-primary);
+  background-color: var(--background-primary);
+}
+
+.response-line {
+  a {
+    color: rgb(22, 107, 182);
+  }
+}
+
+.thinking-illustrator {
+  display: flex;
+  gap: 12px;
+}
+
+.thinking-face {
+  animation: pulse 1.5s infinite;
+}
+
+.thinking-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

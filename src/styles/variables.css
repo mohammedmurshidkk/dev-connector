@@ -1,0 +1,14 @@
+:root {
+  --background-primary: #eaecf0;
+  --foreground-primary: #1f293b;
+}
+
+[data-theme='dark'] {
+  --background-primary: #1f293b;
+  --foreground-primary: rgb(242, 242, 248);
+}
+
+.dark {
+  --background-primary: #1f293b;
+  --foreground-primary: rgb(242, 242, 248);
+}
