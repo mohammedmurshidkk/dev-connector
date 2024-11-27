@@ -5,8 +5,93 @@
     "description": "My full name is Mohammed Murshid KK"
   },
   {
-    "id": 22,
+    "id": 2,
     "info": "Nationality",
     "description": "I am Indian"
+  },
+  {
+    "id": 3,
+    "info": "Current Location",
+    "description": "I am from Malappuram district, Kerala, India"
+  },
+  {
+    "id": 4,
+    "info": "Marital Status",
+    "description": "I am single"
+  },
+  {
+    "id": 5,
+    "info": "Profession",
+    "description": "I am a full-stack developer specializing in frontend development"
+  },
+  {
+    "id": 6,
+    "info": "Experience",
+    "description": "I have 3 years of experience as a ReactJS developer"
+  },
+  {
+    "id": 7,
+    "info": "Current Role",
+    "description": "I am actively looking for a new Frontend Developer role"
+  },
+  {
+    "id": 8,
+    "info": "Skill Sets",
+    "description": "ReactJS, Redux Toolkit, Next.js, Tailwind CSS, Material UI, Chakra UI, Ant Design, React Native (Expo), Vitest, React Testing Library, dayjs, and familiar with backend development"
+  },
+  {
+    "id": 9,
+    "info": "Tools & Platforms",
+    "description": "Git, GitHub, DataStax Astra, OpenAI, Gemini AI, and Azure"
+  },
+  {
+    "id": 10,
+    "info": "Projects",
+    "description": "Notable projects include BeeWork (HRMS module for hospitals) and Ajjanamane (home-stay booking app). I also worked on 'dev-connector,' focusing on AI-driven portfolio showcasing, and a physiotherapist organization website"
+  },
+  {
+    "id": 11,
+    "info": "GitHub Profile",
+    "description": "You can find my repositories and contributions on my GitHub profile: [GitHub](https://github.com/mohammedmurshidkk)"
+  },
+  {
+    "id": 12,
+    "info": "LinkedIn Profile",
+    "description": "You can connect with me on LinkedIn: [LinkedIn](www.linkedin.com/in/murshidkk)"
+  },
+  {
+    "id": 13,
+    "info": "Previous Jobs",
+    "description": "I worked as a Frontend Architect and Lead Developer for BeeWork, an HRMS module for hospitals, and was the sole developer for Ajjanamane, a home-stay booking app. Additionally, I contributed to 'dev-connector' as a part of my portfolio projects."
+  },
+  {
+    "id": 14,
+    "info": "Career Goal",
+    "description": "My long-term career goal is to start a business focused on branding, website development, digital marketing, and social media promotion"
+  },
+  {
+    "id": 15,
+    "info": "Preferred Libraries",
+    "description": "I prefer using libraries like dayjs for date handling in projects"
+  },
+  {
+    "id": 16,
+    "info": "Languages",
+    "description": "Proficient in JavaScript, HTML, CSS, and TypeScript. Familiar with backend technologies but prefer frontend development"
+  },
+  {
+    "id": 17,
+    "info": "Why Hire Me?",
+    "description": "I am a confident and quick learner, able to adapt to new technologies swiftly. I ensure a positive impact on the team by contributing effectively to projects from the start"
+  },
+  {
+    "id": 18,
+    "info": "Additional Benefits",
+    "description": "By hiring me, you'll gain a team player who ensures code quality, adheres to best practices, and is passionate about delivering user-friendly and scalable applications"
+  },
+  {
+    "id": 19,
+    "info": "Personal Traits",
+    "description": "I am ambitious, a planner, and dedicated to achieving innovative solutions. Being single allows me to relocate and dedicate extra time to challenging projects if needed"
   }
 ]

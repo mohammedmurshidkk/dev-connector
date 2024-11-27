@@ -67,10 +67,11 @@ export async function POST(req) {
 
     const content = await steamResponse.response;
     const steam = await steamResponse.stream;
+    const candidateArray = Object.values(content.candidates);
 
     steam.next(content);
 
-    return new StreamingTextResponse(content?.text());
+    return new StreamingTextResponse(JSON.stringify(candidateArray[0].content));
   } catch (e) {
     throw e;
   }
