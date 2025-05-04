@@ -24,7 +24,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <head>
-        <meta name='google-site-verification' content='google-site-verification: googleb38bae8cad4a7346.html' />
+        <meta name='google-site-verification' content='googleb38bae8cad4a7346.html' />
+        <meta name='google-site-verification' content='pncm5vVhpZLI7GSotWkEbpm0JS930izgwR-Ay6aVghE' />
         <script
           async
           src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8910149152066720'
