@@ -10,7 +10,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'background-primary': 'var(--background-primary)'
+        'background-primary': 'var(--background-primary)',
+        'foreground-primary': 'var(--foreground-primary)',
+        'airbnb-teal': '#008489',
+        'airbnb-gray': '#e0e0e0',
+        'airbnb-black': '#222',
+        'airbnb-white': '#fff'
       },
       screens: {
         xxs: '320px', // Extra extra small devices (e.g., very small smartphones)

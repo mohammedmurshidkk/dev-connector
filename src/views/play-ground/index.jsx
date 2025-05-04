@@ -7,8 +7,8 @@ import Header from './Header';
 
 const Playground = ({ messages, inputValue, isLoading, onInputValueChange, onSubmit }) => {
   return (
-    <main className='min-h-[100vh] h-auto flex flex-col'>
-      <Header />
+    <main className='flex-grow h-full flex flex-col'>
+      {/* <Header /> */}
       <section className='xxs:mx-4 xs:mx-7 md:mx-16 lg:mx-32 xl:mx-44 flex-grow pt-8'>
         {messages?.length > 0 ? (
           <>

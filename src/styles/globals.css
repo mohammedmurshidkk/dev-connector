@@ -10,7 +10,9 @@ body {
 
 .response-line {
   a {
-    color: rgb(22, 107, 182);
+    color: #008489;
+    text-decoration: underline;
+    font-weight: 500;
   }
 }
 
@@ -26,6 +28,24 @@ body {
 .thinking-text {
   font-size: 14px;
   font-weight: 500;
+}
+
+mark {
+  background-color: #f0f9ff;
+  color: #008489;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.prose pre {
+  @apply bg-[#1e1e1e] text-white p-4 rounded overflow-x-auto;
+}
+.prose code {
+  @apply text-sm font-mono text-blue-300;
+}
+.prose mark {
+  @apply bg-yellow-300 text-black px-1 rounded;
 }
 
 @keyframes pulse {
@@ -44,4 +64,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+pre {
+  overflow: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
