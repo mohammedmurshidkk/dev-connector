@@ -1,6 +1,6 @@
-# AI-Driven Portfolio
+# Dev Connector
 
-Welcome to the **AI-Driven Portfolio** project! This portfolio showcases the work and skills of Mohammed Murshid KK, leveraging the power of AI and modern web technologies.
+Welcome to **Dev Connector** - a community platform for developers to connect, learn, and grow together. Created by Mohammed Murshid KK, this project leverages the power of AI and modern web technologies to provide valuable resources for developers.
 
 ## Table of Contents
 
@@ -15,36 +15,36 @@ Welcome to the **AI-Driven Portfolio** project! This portfolio showcases the wor
 
 ## Introduction
 
-This portfolio is built using **Next.js 14** and various cutting-edge technologies. It features a modern, responsive design with a light/dark theme toggle. Text formatting is powered by **marked** to ensure rich content display.
+Dev Connector is built using **Next.js 14** and various cutting-edge technologies. It features a modern, responsive design with interactive components and comprehensive developer resources. The platform aims to help developers prepare for interviews, showcase their portfolios, and connect with the broader developer community.
 
 ## Features
 
-- **AI Integration**: Utilizes AI libraries for enhanced user experience.
-- **Next.js 14**: Fast and efficient server-side rendering and static site generation.
+- **Interview Hub**: Comprehensive collection of interview questions and answers for various technologies (React, JavaScript, TypeScript, etc.) categorized by difficulty level.
+- **AI-Powered Portfolio**: Interactive portfolio showcase with AI-driven content generation.
+- **Community Connect** (Coming Soon): Platform for developers to connect, ask questions, and share knowledge.
 - **Responsive Design**: Mobile-first design approach for seamless viewing on any device.
-- **Dark/Light Theme**: Toggle between dark and light themes with **next-themes**.
-- **SEO Friendly**: Optimized for search engines with best practices.
+- **SEO Optimized**: Fully optimized for search engines with structured data and best practices.
+- **Server-Side Rendering**: Improved performance and SEO with Next.js server components.
 
 ## Technologies Used
 
 - **Next.js 14**: Framework for server-rendered React applications.
 - **React 18**: JavaScript library for building user interfaces.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
-- **Marked**: Markdown parser and compiler.
-- **dotenv**: Module to load environment variables.
-- **langchain**: Library for AI and language processing.
-- **openai**: API client for OpenAI services.
-- **next-themes**: Theme switcher for Next.js applications.
-- **@datastax/astra-db-ts**: DataStax Astra DB client.
-- **@google/generative-ai**: Google AI client.
+- **Framer Motion**: Animation library for creating fluid UI animations.
+- **AI Integration**:
+  - **OpenAI**: For advanced AI capabilities.
+  - **Google Generative AI**: For content generation.
+  - **DataStax Astra**: For vector database functionality.
+- **Marked & React Markdown**: For rich content formatting.
 
 ## Installation
 
 To get started with the project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/ai-driven-portfolio.git
-cd ai-driven-portfolio
+git clone https://github.com/mohammedmurshidkk/dev-connector.git
+cd dev-connector
 npm install
 ```
 
