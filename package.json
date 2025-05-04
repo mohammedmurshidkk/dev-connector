@@ -1,6 +1,6 @@
 {
   "name": "dev-connector",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "keywords": [
@@ -32,13 +32,19 @@
     "@google/generative-ai": "^0.12.0",
     "ai": "^3.1.35",
     "dotenv": "^16.4.5",
+    "framer-motion": "^12.9.4",
+    "highlight.js": "^11.11.1",
     "langchain": "^0.2.5",
-    "marked": "^13.0.2",
+    "marked": "^13.0.3",
     "next": "14.2.4",
     "next-themes": "^0.3.0",
     "openai": "^4.51.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-icons": "^5.5.0",
+    "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^15.6.1",
+    "rehype-highlight": "^7.0.2"
   },
   "devDependencies": {
     "eslint": "^8",

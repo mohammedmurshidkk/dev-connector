@@ -1,25 +1,19 @@
 import { Inter } from 'next/font/google';
 import '../styles/globals.css';
 import '../styles/variables.css';
-import { ThemeProvider } from '@/components/ThemeProvider';
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Mohammed Murshid KK - AI-Driven Portfolio',
-  description: `Welcome to the AI-driven portfolio of Mohammed Murshid KK, featuring expertise in Next.js, React, and advanced AI technologies like OpenAI and Gemini AI. Explore our projects showcased with dynamic themes using Tailwind CSS and Next.js' Next-Themes, tailored for both light and dark modes, powered by DataStax Astra for robust data management.'
-    This description now includes mentions of Tailwind CSS, Next-Themes for dynamic theming, DataStax Astra for data management, and emphasizes the use of light and dark themes to enhance user experience`,
+  title: 'Dev Connector - Connect, Learn, Grow',
+  description: `Dev Connector is a community platform for developers to connect, learn, and grow together. Featuring interview preparation resources, portfolio showcasing, and more, powered by advanced AI technologies.`,
   icons: {
     icon: [
       {
-        media: '(prefers-color-scheme: light)',
         url: '/images/person-support-dark.png',
         href: '/images/person-support-dark.png'
-      },
-      {
-        media: '(prefers-color-scheme: dark)',
-        url: '/images/person-support-light.png',
-        href: '/images/person-support-light.png'
       }
     ]
   }
@@ -36,7 +30,11 @@ export default function RootLayout({ children }) {
         ></script>
       </head>
       <body className={inter.className}>
-        <ThemeProvider>{children}</ThemeProvider>
+        <div className='min-h-screen flex flex-col'>
+          <Navigation />
+          <main className='flex-grow flex flex-col'>{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

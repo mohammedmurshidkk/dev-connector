@@ -9,7 +9,7 @@ const Footer = ({ inputValue, isLoading, onInputValueChange, onSubmit }) => {
           onSubmit(e);
         }
       }}
-      className='bg-background-primary min-h-14 min-w-full xxs:px-3 px-5 py-2 sticky bottom-0'
+      className='bg-airbnb-white min-h-16 min-w-full xxs:px-4 px-8 py-4 sticky bottom-0 border-t border-airbnb-gray'
     >
       <div className='xs:mx-2 md:mx-9 lg:mx-24 xl:mx-36'>
         <ChatInput
@@ -19,9 +19,6 @@ const Footer = ({ inputValue, isLoading, onInputValueChange, onSubmit }) => {
           onInputValueChange={onInputValueChange}
         />
       </div>
-      <h6 className='text-center mt-2 text-xs text-zinc-600 dark:text-zinc-400'>
-        Copyright (c) 2024 Mohammed Murshid KK
-      </h6>
     </form>
   );
 };
