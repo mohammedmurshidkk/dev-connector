@@ -5,7 +5,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { normalizeVector } from '../utils/normalizeVector.js';
 
 const { default: sampleData } = await import('../db/sample-data.json', {
-  assert: { type: 'json' }
+  with: { type: 'json' }
 });
 
 const generativeAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
@@ -29,7 +29,7 @@ const createCollection = async () => {
 
 const loadData = async () => {
   const collection = await db.collection(dbName);
-  const model = generativeAI.getGenerativeModel({ model: 'embedding-001' });
+  const model = generativeAI.getGenerativeModel({ model: 'gemini-embedding-001' });
 
   for await (const { id, info, description } of sampleData) {
     const chunks = await splitter.splitText(info);

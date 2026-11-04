@@ -1,7 +1,7 @@
 import ChatMessageRequest from '@/components/ChatMessageRequest';
 import ChatMessageResponse from '@/components/ChatMessageResponse';
 import ThinkingIllustrator from '@/components/ThinkingIllustrator';
-import { formatContent } from '@/utils/formatContent';
+import { parseStreamContent } from '@/utils/parseStreamContent';
 import Footer from './Footer';
 import Header from './Header';
 
@@ -13,20 +13,20 @@ const Playground = ({ messages, inputValue, isLoading, onInputValueChange, onSub
         {messages?.length > 0 ? (
           <>
             {messages?.map((message, i) => {
-              return (
-                <div key={`msg-${i}`}>
-                  {message?.role === 'user' ? (
-                    <ChatMessageRequest message={message?.content} />
-                  ) : (
-                    <ChatMessageResponse
-                      message={formatContent(message?.content).text}
-                      loading={isLoading && i === message?.length}
-                    />
-                  )}
-                </div>
-              );
+              if (message?.role === 'user') {
+                return <ChatMessageRequest key={`msg-${i}`} message={message?.content} />;
+              }
+
+              const { status, error, text } = parseStreamContent(message?.content);
+
+              // Still in progress: show the latest step instead of an empty bubble
+              if (!error && !text) {
+                return isLoading ? <ThinkingIllustrator key={`msg-${i}`} text={status ?? undefined} /> : null;
+              }
+
+              return <ChatMessageResponse key={`msg-${i}`} message={text} error={error} />;
             })}
-            {isLoading && <ThinkingIllustrator />}
+            {isLoading && messages[messages.length - 1]?.role === 'user' && <ThinkingIllustrator />}
           </>
         ) : (
           <div className='px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 py-6 xs:py-8 sm:py-10 md:py-12'>

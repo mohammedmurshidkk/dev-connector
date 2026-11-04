@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -12,7 +13,7 @@
   {
     "id": 3,
     "info": "Current Location",
-    "description": "I am from Malappuram district, Kerala, India"
+    "description": "I am based in Kerala, India. My location is Malappuram district."
   },
   {
     "id": 4,
@@ -22,76 +23,106 @@
   {
     "id": 5,
     "info": "Profession",
-    "description": "I am a full-stack developer specializing in frontend development"
+    "description": "I am a Full Stack Developer specializing in React, Next.js, Node.js, TypeScript, PostgreSQL, and React Native."
   },
   {
     "id": 6,
     "info": "Experience",
-    "description": "I have 3 years of experience as a ReactJS developer"
+    "description": "I have 5 years of experience in the tech industry, including 4+ years building production web and mobile applications."
   },
   {
     "id": 7,
     "info": "Current Role",
-    "description": "I am actively looking for a new Frontend Developer role"
+    "description": "I am available immediately and open to full-time or contract remote Full Stack Developer opportunities. I am flexible with working hours and can accommodate US, UK, EU, and APAC time zone overlaps."
   },
   {
     "id": 8,
     "info": "Skill Sets",
-    "description": "ReactJS, Redux Toolkit, Next.js, Tailwind CSS, Material UI, Chakra UI, Ant Design, React Native (Expo), Vitest, React Testing Library, dayjs, and familiar with backend development"
+    "description": "Frontend: React.js, Next.js (SSR/SSG), TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Material UI, shadcn/ui, Vite, Responsive Design, RTL/Arabic UI, and Microfrontends (Module Federation). Backend: Node.js, Express.js, RESTful APIs, WebSockets, and Python (Flask). Database: PostgreSQL. Mobile: React Native, Expo, and Progressive Web Apps (PWA). State Management: Redux Toolkit, RTK Query, Zustand, and TanStack Query. Testing: Jest, React Testing Library, and Vitest. Authentication: OAuth2, JWT, and Role-Based Access Control (RBAC)."
   },
   {
     "id": 9,
     "info": "Tools & Platforms",
-    "description": "Git, GitHub, DataStax Astra, OpenAI, Gemini AI, and Azure"
+    "description": "Git, GitHub, AWS, Docker, CI/CD, OpenAI GPT-4, Google Gemini, WhatsApp Business API, Instagram Graph API, and WebSockets."
   },
   {
     "id": 10,
     "info": "Projects",
-    "description": "Notable projects include BeeWork (HRMS module for hospitals) and Ajjanamane (home-stay booking app). I also worked on 'dev-connector,' focusing on AI-driven portfolio showcasing, and a physiotherapist organization website"
+    "description": "RELAYET: An AI-powered WhatsApp business automation platform that handles order processing, dynamic pricing, invoice generation, natural-language conversations, and product image recognition. KSmart: A state-wide digital governance platform for the Government of Kerala, involving React microfrontend architecture. KSuite: A government office workflow platform with independently deployable portals and a shared NPM component library. Kiework HRMS: An AI-powered HR platform featuring an AI HR assistant, real-time WebSockets, and employee self-service. TORCAP: A bilingual Arabic/English retail POS system with RTL support and offline-first capabilities. AJJANAMANE: A homestay booking platform built with Next.js."
   },
   {
     "id": 11,
     "info": "GitHub Profile",
-    "description": "You can find my repositories and contributions on my GitHub profile: [GitHub](https://github.com/mohammedmurshidkk)"
+    "description": "My GitHub profile: https://github.com/mohammedmurshidkk"
   },
   {
     "id": 12,
     "info": "LinkedIn Profile",
-    "description": "You can connect with me on LinkedIn: [LinkedIn](www.linkedin.com/in/murshidkk)"
+    "description": "My LinkedIn profile: https://www.linkedin.com/in/murshidkk"
   },
   {
     "id": 13,
     "info": "Previous Jobs",
-    "description": "I worked as a Frontend Architect and Lead Developer for BeeWork, an HRMS module for hospitals, and was the sole developer for Ajjanamane, a home-stay booking app. Additionally, I contributed to 'dev-connector' as a part of my portfolio projects."
+    "description": "Kiebot Learning Solutions Pvt Ltd (June 2022 – September 2026): Worked as a Senior Frontend Developer and was deployed to Information Kerala Mission as Senior Frontend Architect from January 2025 to September 2026. Led frontend architecture for three core modules of Kerala's KSmart digital governance platform. Designed microfrontend architecture for KSuite using Webpack Module Federation and developed a reusable NPM component library. Contributed to Kiework HRMS by building an AI-powered HR assistant, WebSocket infrastructure, Node.js APIs, and a mobile-first PWA. Also developed bilingual retail POS interfaces and contributed to the AJJANAMANE homestay booking platform. Earlier experience includes Network Support Engineer and Student Mentor roles (September 2021 – May 2022)."
   },
   {
     "id": 14,
     "info": "Career Goal",
-    "description": "My long-term career goal is to start a business focused on branding, website development, digital marketing, and social media promotion"
+    "description": "My long-term goal is to build and scale technology products and eventually establish my own technology business focused on software development, AI automation, SaaS products, and digital solutions."
   },
   {
     "id": 15,
     "info": "Preferred Libraries",
-    "description": "I prefer using libraries like dayjs for date handling in projects"
+    "description": "I work with React ecosystem libraries and tools including Redux Toolkit, RTK Query, Zustand, TanStack Query, Tailwind CSS, Material UI, shadcn/ui, Jest, React Testing Library, Vitest, and dayjs."
   },
   {
     "id": 16,
     "info": "Languages",
-    "description": "Proficient in JavaScript, HTML, CSS, and TypeScript. Familiar with backend technologies but prefer frontend development"
+    "description": "I am proficient in JavaScript, TypeScript, HTML, and CSS. I also work with Python and backend technologies such as Node.js and Express.js. I speak Malayalam (native) and English (professional)."
   },
   {
     "id": 17,
     "info": "Why Hire Me?",
-    "description": "I am a confident and quick learner, able to adapt to new technologies swiftly. I ensure a positive impact on the team by contributing effectively to projects from the start"
+    "description": "I can own features end-to-end, from database and API design to frontend development, testing, and deployment. I have production experience building scalable web and mobile applications, designing frontend architectures, developing AI-powered integrations, and delivering products independently."
   },
   {
     "id": 18,
     "info": "Additional Benefits",
-    "description": "By hiring me, you'll gain a team player who ensures code quality, adheres to best practices, and is passionate about delivering user-friendly and scalable applications"
+    "description": "I have experience working on government platforms, enterprise HRMS systems, retail POS applications, and independent SaaS products. I focus on clean code, reusable architecture, performance optimization, testing, and maintainable applications. I am comfortable with asynchronous communication, detailed pull requests, code reviews, Agile/Scrum, and self-managed delivery."
   },
   {
     "id": 19,
     "info": "Personal Traits",
-    "description": "I am ambitious, a planner, and dedicated to achieving innovative solutions. Being single allows me to relocate and dedicate extra time to challenging projects if needed"
+    "description": "I am ambitious, self-motivated, adaptable, and comfortable taking ownership of projects. I am a quick learner who enjoys solving problems, exploring new technologies, and building practical products. I am single and open to relocation if required."
+  },
+  {
+    "id": 20,
+    "info": "Current Product",
+    "description": "I designed, developed, and currently operate RELAYET (https://relayet.com), an AI-powered WhatsApp business automation platform. I built it as a solo developer, handling product planning, architecture, backend APIs, PostgreSQL database design, AI integrations, web and mobile admin applications, Docker containerization, AWS deployment, and production support."
+  },
+  {
+    "id": 21,
+    "info": "Remote Work Preferences",
+    "description": "I am actively interested in remote opportunities and can work with international teams across US, UK, EU, and APAC time zones. I am comfortable with asynchronous communication, written documentation, independent delivery, and flexible working schedules."
+  },
+  {
+    "id": 22,
+    "info": "Portfolio",
+    "description": "My developer portfolio: https://whoami.relayet.com"
+  },
+  {
+    "id": 23,
+    "info": "Availability",
+    "description": "Available immediately for full-time or contract remote opportunities."
+  },
+  {
+    "id": 24,
+    "info": "Awards & Recognition",
+    "description": "Received an Employee Recognition Award from Kiebot Learning Solutions. Also published an NPM component library used across multiple production portals."
+  },
+  {
+    "id": 25,
+    "info": "Preferred Work Arrangement",
+    "description": "I prefer remote-first opportunities but am open to full-time and contract engagements with international companies."
   }
 ]

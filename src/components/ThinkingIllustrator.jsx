@@ -1,12 +1,12 @@
 import { ThinkingFace } from '../../public/icons/ThinkingFace';
 
-const ThinkingIllustrator = () => {
+const ThinkingIllustrator = ({ text = 'Thinking…' }) => {
   return (
     <div className='thinking-illustrator'>
       <div className='thinking-face'>
         <ThinkingFace />
       </div>
-      <span className='thinking-text'>Thinking...</span>
+      <span className='thinking-text'>{text}</span>
     </div>
   );
 };
